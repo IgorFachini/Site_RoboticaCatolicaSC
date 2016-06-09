@@ -1,0 +1,45 @@
+.twt
+{
+	color: #6CADDE;
+}
+.twt:hover
+{
+	color: rgba(108, 173, 222, 0.85);
+}
+.face
+{
+	color: #4867AA;
+}
+.face:hover
+{
+	color: rgba(72, 103, 170, 0.85);
+}
+.git
+{
+	color: black;
+}
+.git:hover
+{
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.pager li>a:hover, .pager li>a:focus {
+    color: #fff;
+    background-color: #B7334F !important;
+    border: 1px solid #B7334F !important;
+}
+
+hr.soften {
+		height: 1px;
+		background-image: -webkit-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0));
+		background-image:    -moz-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0));
+		background-image:     -ms-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0));
+		background-image:      -o-linear-gradient(left, rgba(154, 33, 43, 0), rgba(154, 33, 43,.8), rgba(154, 33, 43,0));
+		border: 0;
+}
+
+.btn-default:hover, .btn-default:focus {
+/*background-color: #B7334F ;
+border: 1px solid #B7334F ;
+color: #fff;*/
+}

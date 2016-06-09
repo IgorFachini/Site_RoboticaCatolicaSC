@@ -1,0 +1,139 @@
+
+:focus {
+    -moz-outline-style:none;
+    outline-style:none
+}
+
+.sortable .lisort
+{
+    margin:0px;
+    padding:0px;
+    float:left;
+    width: 193px;
+    margin:10px;
+    text-align: left;
+    border: 0px solid blue;     
+    background-color: #f0f0f0;
+    
+    border: 1px solid #888;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=3);     
+    -moz-box-shadow: 0 0 10px #888 !important;
+    -webkit-box-shadow: 0 0 10px #888 !important;
+    box-shadow: 0 0 10px #888 !important;
+}
+
+.box-foto-edit
+{
+    text-align: left;
+    margin:0px;    
+    border: 0px solid green;
+}
+.box-foto-edit > li
+{
+    background: none !important;
+    border: 0px solid red;
+    padding-top: 13px;
+    padding: 10px;
+}
+
+.box-foto-edit img
+{
+    float:left;
+}
+.box-foto-edit .pic
+{
+    cursor: move;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;    
+}
+
+.box-foto-edit input
+{
+    float:left;   
+    width: 162px;    
+    padding:5px;    
+}
+
+.box-foto-edit span
+{
+    background: #ddd;
+    width: 146px;
+    height: 10px  !important;
+    display: block;
+}
+
+.box-album
+{
+    border: 0px solid red;
+    float:left; 
+    width: 99%;
+}
+
+.box-album ul.box-album-head
+{
+    border: 0px solid blue;
+    padding:0px;    
+    text-align: left;
+    margin:0 auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.box-album .btn-upload
+{
+    width: 98%;
+    display: block;
+    border-bottom:1px solid #f0f0f0;
+    margin-left:15px;
+    text-align: center;
+    margin-top:0px !important;
+    margin-bottom:30px !important;
+    padding-top:0px !important;
+    padding-bottom:10px !important;
+}
+.box-album ul.box-album-head input
+{
+    padding:8px; 
+    width: 570px;
+}
+
+.box-album ul.box-album-head select
+{
+    padding:8px; 
+    width: 690px;
+    -moz-boder-radius: 3px;
+    -boder-radius: 3px;
+}
+
+.box-foto
+{
+    float:left;
+    margin:1px;
+    padding:0px;
+}
+
+.box-foto ul
+{
+    float:left;
+    margin:0px;
+    padding:0px;    
+}
+
+
+input, select, .pics
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #888;
+    -moz-box-shadow: 0 0 5px #888 !important;
+    -webkit-box-shadow: 0 0 5px #888 !important;
+    box-shadow: 0 0 5px #888 !important;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=3);    
+}
+
+.cursor-move
+{
+    cursor: move;
+}
